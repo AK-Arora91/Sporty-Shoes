@@ -26,7 +26,7 @@ a{
 <div>
 <br><br>
 <a href="product" target="iframe">Products</a>
-<a href="users" target="iframe">Users</a>
+<a href="user" target="iframe">Users</a>
 <a href="purchaseReport" target="iframe">Purchase Report</a>
 </div><br><br>
 

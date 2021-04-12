@@ -56,4 +56,16 @@
     <property name="hibernateTemplate" ref="hibernateTemplate"></property>  
     </bean>
     
+    <bean id="userRepository" class="org.sporty_shoes.repository.UserRepository">  
+    <property name="hibernateTemplate" ref="hibernateTemplate"></property>  
+    </bean>
+    
+    <bean id="purchaseReportRepository" class="org.sporty_shoes.repository.PurchaseReportRepository">  
+    <property name="hibernateTemplate" ref="hibernateTemplate"></property>  
+    </bean>
+    
+    <bean id="repository" class="org.sporty_shoes.repository.Repository">  
+    <property name="hibernateTemplate" ref="hibernateTemplate"></property>  
+    </bean>
+    
 </beans>

@@ -12,12 +12,12 @@
 <br><br>
 <h2 style="color:blue;">Enter details to reset password</h2>
 <div style="border:3px solid pink;width:25%;border-radius:20px;padding:20px">
-<form action=ForgotPassword method=post>
+<form action=adminForgotPassword method=post>
 	<label for=email>Email :-</label> <input type="email" name=email id=email /><br><br>
 	<label for=pass>New Password :-</label> <input type="password" name=password id=pass /><br><br>
 	<input type=submit value=submit /> <input type=reset />
 </form>
-</div>
-	
+</div><br><br>
+<p style="color:green;">${message}</p>
 </body>
 </html>
